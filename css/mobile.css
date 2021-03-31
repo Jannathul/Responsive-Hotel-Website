@@ -1,0 +1,81 @@
+/* nav */
+#navbar .logo{
+  float: none;
+  text-align: center;
+}
+#navbar ul,#navbar ul li{
+  float: none;
+}
+#navbar ul li a{
+  padding: 5px;
+  border-bottom:rgb(122, 119, 119) dotted 1px;
+}
+
+/* home */
+#home-info .info-img {
+  background: none;
+  width: 0%;
+}
+#home-info .info-content {
+  float:none;
+  width: 100%;
+}
+#showcase .showcase-content {
+  padding-top: 135px;
+}
+.box {
+  float: none;
+  width: 100%;
+}
+
+
+ /* about */ 
+#about-info .info-left,#about-info .info-right{
+  float: none;
+  width: 100%;
+}
+.l-heading {
+  font-size: 30px;
+  line-height: 1.2em;
+  text-align: center;
+}
+#about-info .info-right img {
+  margin-top: 25px;
+}
+
+#about-info .info-left p{
+  text-align: center;
+}
+
+#testimonials .testimonial p{
+  font-size: 15px;
+}
+
+/* contact */
+#contact-info .box{
+  border-bottom: #444 dotted 1px ;
+}
+#contact-info .box i {
+  margin-bottom: 30px;
+}
+#contact-form .container p{
+  text-align: center;
+}
+
+/* iphone 5 */
+@media(max-width: 350px){
+  /* home */
+  #showcase h1{
+    font-size: 40px;
+    line-height: 1.2em;
+    color: white;
+  }
+  #showcase p{
+    font-size: 15px;
+    padding-bottom: 20px;
+    line-height: 1.4em;
+  }
+  #home-info {
+    height: 600px;
+  }
+}
